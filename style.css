@@ -1,0 +1,291 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==================================================== */
+/* CSS for Header  section*/
+header{
+  background-color: #577AFB;
+  width: 100vw;
+  height: 75vh;
+}
+
+header>nav{
+  display: flex;
+  justify-content: right;
+  margin-right: 30px;
+  /* padding: 10px 0; */
+  padding-top: 10px;
+}
+
+.nav-item{
+  margin: 5px 10px;
+  color: #ffffff;
+}
+
+.nav-item-active{
+  margin: 5px 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+nav>svg{
+  width: 25px;
+  height: 25px;
+}
+
+.logo{
+  margin-left: 5vh;
+}
+
+.header-text img{
+  margin-left: 10vh;
+  margin-top: 10vh;
+}
+
+.header-text h2{
+  margin-left: 10vh;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.header-text p{
+  margin-left: 10vh;
+  font-size: 20px;
+  color: #ffffff;
+}
+.header-image{
+  position: absolute;
+  top: 12vh;
+  right: 0vh;
+}
+
+/* ======================================================== */
+
+
+
+/* CSS for Compnaies section */
+
+.companies{
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.company-items{
+  margin: 0 15px;
+  color: #1D2329;
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+/* =============================================== */
+
+
+/* CSS for API Section */
+.api{
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.api-heading{
+  font-weight: 900;
+}
+
+.cards{
+  display: flex;
+  margin-top: 5vh;
+  justify-content: space-between;
+  margin-right: 5vh;
+}
+/* .card-active{
+  background-color:#F0FFF0;
+} */
+.card-head-active{
+  color: #577AFB;
+}
+
+.card-body{
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+/* ============================================== */
+
+/* CSS for Blog section */
+.blog-heading{
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.blog-cards{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-card{
+  display: flex;
+  flex: 0.5;
+}
+
+.blog-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8vh;
+}
+
+.blog-content h6{
+  color: #577AFB;
+}
+small{
+  font-size: 15px;
+}
+.blog-bottom{
+  position: relative;
+  top: 80px;
+}
+
+.blog-author{
+  position: relative;
+  top: 12px;
+  left: 30px;
+}
+/* ============================================== */
+
+
+.faq-section{
+  display: flex;
+   margin-top: 80px;
+  /* margin-left: 50px; */
+  background-color: #DCDBDB;
+  
+}
+
+.faq-content{
+  flex: 0.5;
+  margin-left: 50px;
+  
+}
+.faq-content h2{
+  margin-top: 30px;
+  font-size: 35px;
+}
+.faq-content h4{
+  font-size: 20px;
+  margin-top: 5px;
+}
+.faq-content button{
+  margin-top: 15px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  background-color: #577AFB;
+  border: none;
+  color: #ffffff;
+}
+.faq-image{
+  flex: 0.5;
+  /* justify-content: right; */
+  position: relative;
+  right: -20px;
+  padding-bottom: 0;
+}
+
+/* =========================================== */
+
+/* CSS for Download section */
+.download-section{
+  /* display: none; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.download-content{
+  margin: 50px 0;
+  margin-left: 50px;
+  font-weight: 900;
+}
+.download-content h1>span{
+  font-weight: 100;
+}
+.download-email{
+  margin:50px 0;
+  margin-left: 50px;
+  margin-right: 70px;
+}
+
+.download-email form>input{
+  padding: 10px 20px;
+  background-color: #DCDBDB;
+  border: none;
+  border-radius: 15px;
+  /* position: relative; */
+  
+}
+
+.download-email form>button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #577AFB;
+  color: #ffffff;
+  /* position: absolute; */
+  position: relative;
+  right: 5vh;
+  
+}
+
+/* ========================================== */
+
+/* CSS for footer section */
+
+.footer-section{
+  display: flex;
+  justify-content:space-between;
+  background-color: #577AFB;
+}
+
+/* footer left section */
+.footer-left{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.list-items{
+  text-decoration: none;
+  margin-right: 15px;
+  list-style-type: none;
+  color: #ffffff;
+}
+.list{
+  display: flex;
+  margin-top: 20px;
+}
+/* footer right section */
+.footer-right{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 5vh;
+}
+.footer-right-logos{
+  display: flex;
+  justify-content: right;
+}
+.footer-logos{
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+.logos-list{
+  display: flex;
+  margin-top: 20px;
+}
