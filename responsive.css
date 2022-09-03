@@ -1,0 +1,81 @@
+@media only screen and (max-width:900px) {
+    
+
+    /* CSS for Header  section*/
+    header{
+        background-color: #577AFB;
+        /* width: 100vw; */
+        /* height: fit-content; */
+    }
+    .nav-item{
+        display: none;
+    }
+
+    .header-image{
+        display: none;
+    }
+
+    /* ========================================== */
+
+    /* CSS for Blog section */
+    .blog-cards{
+        flex-direction: column;
+    }
+    .blog-card{
+        margin-top: 2rem;
+    }
+    small{
+        font-size: 10px;
+    }
+    .blog-bottom{
+        top: 40px;
+    }
+    .blog-author{
+        top: -10px;
+    }
+    /* ========================================= */
+
+
+    /* CSS for FAQ Section */
+    .faq-image{
+        display: none;
+    }
+
+    /* =========================== */
+
+    /* CSS for Download section */
+    .download-section{
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+    }
+    .download-email{
+        margin-right: 35px;
+    }
+    .download-email form>input{
+        max-width: 14rem;
+    }
+    
+    /* ========================================== */
+
+    /* CSS for footer section */
+    .footer-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-left{
+        margin-left: 0px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    .list-items{
+        display: none;
+    }
+
+    .footer-right{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: 0vh;
+    }
+}
